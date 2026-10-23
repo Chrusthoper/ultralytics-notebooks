@@ -1,0 +1,47 @@
+{
+  "ultralytics": "8.4.184",
+  "model": "yolo26n.pt",
+  "source": "media/street_nyc_1080p.mp4",
+  "frame_size": [
+    1920,
+    1080
+  ],
+  "source_fps": 30,
+  "frames_processed": 402,
+  "region": [
+    [
+      600,
+      720
+    ],
+    [
+      1700,
+      720
+    ],
+    [
+      1700,
+      800
+    ],
+    [
+      600,
+      800
+    ]
+  ],
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "conf": 0.25,
+  "imgsz": 640,
+  "in_count": 17,
+  "out_count": 1,
+  "total_counted": 18,
+  "processing_seconds": 49.46,
+  "mean_frame_ms": 99.12,
+  "processing_fps": 8.13,
+  "output_mp4": "output/counting_street.mp4",
+  "output_mb": 15.1
+}

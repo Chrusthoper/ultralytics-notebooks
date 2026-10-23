@@ -1,0 +1,7 @@
+# Object counting demo (local, CPU) — notebook how-to-count-the-objects-using-ultralytics-yolo
+# Instalar torch CPU primero si el entorno no lo trae:
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+ultralytics==8.4.184
+opencv-python>=4.9
+# descarga del video fuente (opcional, solo para regenerar media/)
+# yt-dlp   -> se usa el binario del sistema
